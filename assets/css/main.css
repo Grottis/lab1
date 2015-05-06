@@ -1,16 +1,27 @@
 body{
-	background-color:white;
+	background-color:yellow;
 	font-family:Verdana;
 	font-size:15px;
+	margin:0;
+	padding:0;
+}
+ul{
+	margin:0;
+	padding:0;
+}
+a{
+	color:white;
+	font-weight:bold;
+	text-decoration:none;
+}
+a:hover{
+	text-decoration:underline;
+	
 }
 #main{
-	position:absolute;
-	left:10%;
-	right:10%;
-	top:5%;
-	bottom:5%;
-	background-color:DimGray;
-	min-width:500px;
+	background-color:Gray;
+	padding:0;
+	margin:0;
 	
 }
 
@@ -21,36 +32,75 @@ body{
 	position:relative;
 	display:inline;
 	top:-40px;
+	left:80px;
 }
+
 #formen{
-	top:50px;
+	position:relative;
+	top: 15px;
+	left: 110px;
+	width:350px;
+	height:350px;
 	color:white;
-	
+}
+#wronginput{
+	color:pink;
+	visibility:hidden;
 }
 .comment {
-	background-color:gray;
-	width:500px;
+	position:relative;
+	background-color:Gray;
+	width:600px;
 	margin-left:10px;
-	
-	}
-.comment:hover{
-	
+	border:solid 1px black;
+	margin-bottom:20px;
+	color:white;
+	min-height:300px;
 }
-
-
 
 .comment p{
-color:white;
-
+	margin-left:5px;
+	margin-right:5px;
+	margin-bottom:30px;
 }
-
-.posterinfo{
+.commentheader{
 	background-color:LightSlateGray;
+	height:60px;	
+}
 
+.commentheader ul{
+	left:0;
+	list-style:none;
+	margin:0px;
+	color:white;
+	
 	
 }
-input    {
-	
+.commentfooter{	
+		position:absolute;
+		bottom:0px;
+		height:25px;
+		width:600px;
+		background-color:LightSlateGray;	
+		
+		
+	}
+.commentfooter ul{
+	position:relative;
+	left:0px;
+	margin:0px;
+}
+.commentfooter li{
+	display:inline;
+	padding:120px;
+}
+
+
+
+
+
+ 
+input{
 	display:block;
 	height: 25px;
 	width:250px;
@@ -65,9 +115,7 @@ button {
 	position:relative;
 	left:75px;
 	width:100px;
+	top:10px;
 
 }
-#formen{
-	position:relative;
-	left:150px;
-}
+
