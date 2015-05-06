@@ -55,7 +55,7 @@ a:hover{
 	border:solid 1px black;
 	margin-bottom:20px;
 	color:white;
-	min-height:300px;
+	
 }
 
 .comment p{
@@ -65,7 +65,7 @@ a:hover{
 }
 .commentheader{
 	background-color:LightSlateGray;
-	height:60px;	
+	height:80px;	
 }
 
 .commentheader ul{
