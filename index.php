@@ -8,9 +8,17 @@
 	</head>
 	<body>
 	<div id="main">
-		<img src ="assets/img/logo.png">
-		<p id="signin">Sign in!</p>
-		<div id="commentsection">
+	<div id="header">
+		<img src ="assets/img/logo.png" alt="Lämna en kommentar">
+		<div id="nav">
+			<ul>
+				<li><a href="nyaste.php">Nyaste först</a></li>
+				<li><a href="aldsta.php">Äldsta först</a></li>
+			</ul>
+			<a id="signin" href="login.php">Logga in</a>
+		</div>
+	</div>
+	<div id="commentsection">
 			<div class="comment" id="comment1">
 				<div class="commentheader">
 					<ul>
@@ -29,7 +37,7 @@
 					</ul>
 				</div>
 			</div>
-			<div class="comment">
+			<div class="commentreply">
 				<div class="commentheader">
 					<ul>
 						<li>Namn: Hasse Hassesson</li>
@@ -62,7 +70,7 @@
 				</div>
 			</div>
 		</div>	
-		<div id="formen">
+	<div id="formen">
 		<h3>Lämna gärna en egen kommentar!</h3>
 		<p id="wronginput">Ett eller flera fält är inte korrekt ifyllda</p>
 		<form name="formular"  onSubmit = "return validateForm()">
