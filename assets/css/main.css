@@ -16,6 +16,35 @@ a{
 	font-weight:bold;
 	text-decoration:none;
 }
+label{
+	position:relative;
+	display:block;
+	text-align:center;
+	right:40px;
+	
+}
+input{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	
+	margin-bottom:5px;
+}
+textarea{
+
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	height:150px;
+	width:300px;
+}
+button{
+	display:block;
+	
+	margin-left:auto;
+	margin-right:auto;
+	width:100px;
+}
 a:hover{
 	text-decoration:underline;
 	
@@ -26,117 +55,88 @@ a:hover{
 }
 
 #nav{
-	
-	
+	height:25px;
 	background-color:black;
 	margin-bottom:12px;
 }
 #nav ul{
-
-	background-color:yellow;
-}
+	position:relative;
+	left:15px;
+	top:5px;
+	}
 #nav li{
 	
-	background-color:red;
 	display:inline;
 	padding-right:40px;
 	
 }
 
 #signin{
-
-	color:green;
 	position:relative;
-	top:-18px;
-	right:-780px;
+	color:green;
+	left:500px;
+	padding-right:0px;
 	
 }
-#formen{
-
+#commentsection{
+	margin-left:10px;
 }
+#commentsection p{
+	margin-left:5px;
+	margin-right:5px;
+}
+#commentsection li{
+	display:inline;
+	padding-right:20px;
+	margin-left:5px;
+}
+.comment{
+	width:600px;
+	border:solid 1px black;
+	margin-bottom:15px;
+	}
+.commentreply{
+	position:relative;
+	left:50px;
+	width:600px;
+	border:solid 1px black;
+	margin-bottom:15px;
+	
+}
+
+.commentheader{
+	
+	background-color:Black;
+	color:white;
+}
+.commentfooter{
+	background-color:Black;
+	color:white;
+}
+#formen{
+	width:50%;
+	margin:0 auto;
+	
+}
+#formen h3{
+	text-align:center;
+	}
 #wronginput{
+	text-align:center;
 	color:pink;
 	visibility:hidden;
 }
-
-.comment {
-	position:relative;
-	background-color:Gray;
-	width:600px;
-	margin-left:10px;
-	border:solid 1px black;
-	margin-bottom:20px;
-	color:white;	
+#lblKommentar{
+	right:100px;
 }
-
-.comment p{
-	margin-left:5px;
-	margin-right:5px;
-	margin-bottom:30px;
-}
-.commentheader{
-	background-color:LightSlateGray;
-	height:85px;	
-}
-
-.commentheader ul{
-	left:0;
-	list-style:none;
-	margin:0px;
-	color:white;
-	
-	
-}
-.commentfooter{	
-		position:absolute;
-		bottom:0px;
-		height:25px;
-		width:600px;
-		background-color:LightSlateGray;	
-		
-		
-	}
-
-.commentfooter li{
-	display:inline;
-	
-}
-
-.commentreply {
-	position:relative;
-	background-color:Gray;
-	left:50px;
-	width:600px;
-	margin-left:10px;
-	border:solid 1px black;
-	margin-bottom:20px;
-	color:white;	
-}
-
-.commentreply p{
-	margin-left:5px;
-	margin-right:5px;
-	margin-bottom:30px;
+#footer{
+	margin-top:10px;
+	height:25px;
+	background-color:black;
+	color:LightSlateGray;
+	text-align:center;
 }
 
 
- 
-input{
-	display:block;
-	height: 25px;
-	width:250px;
-}
-textarea
-{
-display:block;
-width:250px;
-height:100px;
-}
-button {
-	position:relative;
-	left:75px;
-	width:100px;
-	top:10px;
 
-}
 

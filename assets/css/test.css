@@ -1,0 +1,34 @@
+body,html{
+	margin:0;
+	padding:0;	
+}
+
+#main{
+	width:100%;
+	height:100%;
+	background-color:Gray;
+	border:solid 1px black;
+	
+}	
+
+#left{
+	background-color:red;
+	max-width:10px;
+	float:left;
+}
+
+#middle{
+	
+	background-color:yellow;
+	width:600px;
+	float:left;
+}
+
+#right{
+
+	min-width:0px;
+	background-color:blue;
+	float:left;
+	
+} 
+
