@@ -10,7 +10,7 @@
 	<?php 
 		$user = "lab";
 		$host = "localhost";
-		$pass = "";
+		$pass = "fcFUmm5uyM2Fx2un";
 		$db = "lab1";
 		$query = "SELECT * FROM comments";
 		$mysqli = new mysqli($host, $user, $pass, $db);

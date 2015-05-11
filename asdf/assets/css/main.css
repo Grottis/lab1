@@ -1,0 +1,187 @@
+body{
+	background-color:White;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:15px;
+	margin:0 auto;
+	padding:0;
+	min-width:1000px;
+	max-width:1000px;
+}
+ul{
+	margin:0;
+	padding:0;
+}
+li{
+	list-style:none;
+	
+}
+a{
+	color:white;
+	font-weight:bold;
+	text-decoration:none;
+}
+label{
+	position:relative;
+	display:block;
+	text-align:center;
+	right:52px;
+	
+}
+input{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	
+	margin-bottom:5px;
+}
+textarea{
+
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	height:150px;
+	width:300px;
+}
+button{
+	display:block;
+	
+	margin-left:auto;
+	margin-right:auto;
+	width:100px;
+}
+a:hover{
+	text-decoration:underline;
+	
+}
+#main{
+	background-color:LightSlateGray;
+	position:relative;
+}
+
+#nav{
+	height:25px;
+	background-color:black;
+	margin-bottom:12px;
+}
+#nav ul{
+	position:relative;
+	left:15px;
+	top:5px;
+	}
+#nav li{
+	
+	display:inline;
+	padding-right:40px;
+	
+}
+#login{
+	position:relative;
+	width:300px;
+	height:150px;
+	background-color:black;
+	left:700px;
+	top:8px;
+	color:white;
+	display:none;
+}
+
+#register{
+	display:none;
+	position:relative;
+	width:300px;
+	height:250px;
+	background-color:black;
+	left:700px;
+	top:-160px;
+	color:white;
+	
+}
+
+
+#signin{
+	position:relative;
+	color:white;
+	left:400px;
+	padding-right:0px;
+	
+}
+
+#commentsection{
+	margin-left:10px;
+}
+#commentsection p{
+	margin-left:5px;
+	margin-right:5px;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+#commentsection ul{
+	margin-left:5px;
+
+}
+
+
+.comment{
+	position:relative;
+	width:600px;
+	border:solid 1px black;
+	margin-bottom:15px;
+	}
+.commentreply{
+	position:relative;
+	left:50px;
+	width:600px;
+	border:solid 1px black;
+	margin-bottom:15px;
+	
+}
+
+.commentheader{
+	
+	background-color:#303030;
+	color:white;
+}
+.commentfooter{
+	background-color:#303030;
+	color:white;
+}
+
+.commentfooter li{
+	display:inline;
+	padding-left:15px;
+}
+
+.hidelink{
+	font-weight:bold;
+}
+.hidelink:hover{
+	text-decoration:underline;
+	cursor:pointer;
+}
+#formen{
+	width:50%;
+	margin:0 auto;
+	
+}
+#formen h3{
+	text-align:center;
+	}
+#wronginput{
+	text-align:center;
+	color:pink;
+	visibility:hidden;
+}
+#lblKommentar{
+	right:100px;
+}
+#footer{
+	margin-top:10px;
+	height:25px;
+	background-color:black;
+	color:LightSlateGray;
+	text-align:center;
+}
+
+
+
+
