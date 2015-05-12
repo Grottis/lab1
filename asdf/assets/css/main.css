@@ -1,3 +1,5 @@
+/* Tags */
+
 body{
 	background-color:White;
 	font-family:Arial,Helvetica,sans-serif;
@@ -7,6 +9,16 @@ body{
 	min-width:1000px;
 	max-width:1000px;
 }
+/* @media screen and (max-width: 1000px) {
+    body {
+        background-color: lightblue;
+    }
+}
+@media screen and (max-width: 500px){
+	body{	
+		background-color:yellow;
+		}
+} */
 ul{
 	margin:0;
 	padding:0;
@@ -53,6 +65,7 @@ a:hover{
 	text-decoration:underline;
 	
 }
+/* ID */
 #main{
 	background-color:LightSlateGray;
 	position:relative;
@@ -79,20 +92,20 @@ a:hover{
 	width:300px;
 	height:150px;
 	background-color:black;
-	left:700px;
-	top:8px;
+	left:685px;
+	top:3px;
 	color:white;
-	display:none;
+	/* display:none; */
 }
 
 #register{
-	display:none;
+	/* display:none; */
 	position:relative;
 	width:300px;
 	height:250px;
 	background-color:black;
 	left:700px;
-	top:-160px;
+	/* top:-160px; */
 	color:white;
 	
 }
@@ -103,7 +116,12 @@ a:hover{
 	color:white;
 	left:400px;
 	padding-right:0px;
-	
+	font-weight:bold;
+}
+
+#signin:hover{
+	text-decoration:underline;
+	cursor:pointer;
 }
 
 #commentsection{
@@ -120,6 +138,7 @@ a:hover{
 
 }
 
+/* Classes */
 
 .comment{
 	position:relative;
@@ -181,7 +200,6 @@ a:hover{
 	color:LightSlateGray;
 	text-align:center;
 }
-
 
 
 

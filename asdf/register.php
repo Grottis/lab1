@@ -22,16 +22,13 @@
 			$email = $mysqli->real_escape_string($_POST["regmail"]);
 			$password = password_hash($_POST["regpassword"],PASSWORD_DEFAULT);
 			$username = $mysqli->real_escape_string($_POST["username"]);
-			echo $username;
-			echo "<br>";
-			echo $email;
-			echo "<br>";
-			echo $password;
-			echo "<br>";
+			
 			$query = "INSERT INTO users(email,pass,username) VALUES('$email','$password','$username')";
-			echo $query;
-			$result = $mysqli->query($query);
-			echo $result;
+			
+			if($mysqli->query($query)===true)
+			echo "hurra";
+			else
+				echo "no!";
 		}
 		else echo "Du har inte angivit något";
 	?>

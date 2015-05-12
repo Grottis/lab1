@@ -1,13 +1,21 @@
-	
+
+
+//var logstyle = window.getComputedStyle(document.getElementById("login"),null).getPropertyValue("display");
+
+console.log(logstyle); 	
+document.getElementById("signin").addEventListener("click",clickLogin);
+
 function clickLogin(){
-	if(document.getElementById("login").style.display=="none"){
+	if(logstyle=="none"){
 	console.log("Hehehehehehehehehehe");
 	document.getElementById("login").style.display="block";
 	}
 	else
-	document.getElementById("login").style.display="none";
+	{document.getElementById("login").style.display="none";
 	console.log("Hehehehe");
+	}
 }
+	
 function clickRegister(){
 	if(document.getElementById("register").style.display =="none"){
 	document.getElementById("register").style.display="block";
@@ -61,7 +69,7 @@ function validateForm(){
 			
 			returnera = false;
 	}
-if( !(/[\w&-]+[@]+[\w&-]+[.]+[A-z]/i.test(email)) )
+	if( !(/[\w&-]+[@]+[\w&-]+[.]+[A-z]/i.test(email)) )
 	{
 		document.forms["formular"]["email"].style.backgroundColor="pink";
 		document.getElementById("wronginput").style.visibility="visible";
